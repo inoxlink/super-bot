@@ -68,7 +68,7 @@ export default class WhatsappClient {
         await page.setBypassCSP(true);
         await page.setViewport({
             width: 800,
-            height: 900
+            height: 600
         })
         await page.goto(WHATSAPP_WEB_URL, {
             waitUntil: 'networkidle0',
