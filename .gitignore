@@ -65,3 +65,6 @@ Superbot-807b1a9f4f85.json
 clients/whatsapp/screenshot.png
 rb_user_data/
 temp/
+
+# ignore vscode config options
+.vscode/*
